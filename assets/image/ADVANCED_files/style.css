@@ -1,0 +1,93 @@
+.title{
+    background-color: rgb(255, 187, 52);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.title>h1{
+    color: rgb(255,136, 0);
+}
+.title>p{
+    color: #fff;
+    font-size: 20px;
+}
+/* COMMON CLASS */
+.common{
+    background-color: #ddd;
+    padding: 30px;
+    margin: 30px;
+    border: 3px solid #ccc;
+} 
+.cssOutLine{
+    outline: 3px solid #000;
+    border-radius: 10px;
+}
+/* P3.HTML CODE */
+.cssOverflow>p{
+    text-align: justify;
+    line-height: 2;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    overflow:auto;
+}
+.cssOverflow>p:last-child{
+    white-space:  nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+/* P4.HTML CODE */
+.cssWhiteSpace{
+       white-space:break-spaces;
+}
+/* P5.HTML CODE */
+.cssUnits>h3:nth-child(1){
+    margin: 0.5in; /*Inches - lin is equal to 2.54cm*/
+}
+.cssUnits>h3:nth-child(2){
+    line-height: 3cm; /*centimeters */
+}
+.cssUnits>h3:nth-child(3){
+    word-spacing: 4mm; /* millimeters */
+}
+.cssUnits>h3:nth-child(4){
+    font-size: 12pt; /* points */
+}
+.cssUnits>h3:nth-child(5){
+    font-size: 1pc; /* picas */
+}
+.cssUnits>h3:nth-child(6){
+    font-size: 12px; /*pixels */
+}
+/* P6.HTML CODE */
+.cssVisibilityDisplay>p{
+    background-color: teal;
+    padding: 20px;
+    border: 5px solid red;
+}
+.cssVisibilityDisplay>.cssVisibility{
+    visibility: hidden;
+}
+.cssVisibilityDisplay>.cssDisplay{
+    display: none;
+}
+/* P7.HTML CODE */
+.cssWordWrap>p{
+    background-color: #808080;
+    padding: 20px;
+    width:300px;
+    word-wrap: break-word;
+}
+/* css Resize */
+.cssResize{
+    resize: both;
+    overflow: auto;
+}
+
+
+
+
+
+
